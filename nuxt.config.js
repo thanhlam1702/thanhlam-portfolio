@@ -1,6 +1,9 @@
 export default {
   target: 'static',
   ssr: false,
+  router: {
+    base: '/thanhlam-portfolio/',
+  },
 
   head: {
     title: 'Thanh Lãm | Web Developer',
@@ -15,7 +18,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'My name is Lãm, I\'m Front End Web Developer, I can work with VueJs, NuxtJs ReactJs, NextJS, Django, Django Rest Framework, Nodejs. Special, I have passion with creative website',
+          "My name is Lãm, I'm Front End Web Developer, I can work with VueJs, NuxtJs ReactJs, NextJS, Django, Django Rest Framework, Nodejs. Special, I have passion with creative website",
       },
       { hid: 'robots', name: 'robots', content: 'index,follow' },
       {
@@ -32,7 +35,8 @@ export default {
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'My name is Lãm, I"m Front End web developer, I can work with VueJs, NuxtJs ReactJs, NextJS, Django, Django Rest Framework, Nodejs. Special, I have passion with creative website',
+        content:
+          'My name is Lãm, I"m Front End web developer, I can work with VueJs, NuxtJs ReactJs, NextJS, Django, Django Rest Framework, Nodejs. Special, I have passion with creative website',
       },
       {
         hid: 'og:image',
