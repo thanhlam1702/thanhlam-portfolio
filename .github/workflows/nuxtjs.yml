@@ -19,6 +19,7 @@ jobs:
           #
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: nuxt
+      - uses: actions/checkout@v2
       - name: Install dependencies and generate static
         run: yarn install --frozen-lockfile && yarn generate
       - name: Upload artifact
